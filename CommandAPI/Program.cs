@@ -1,6 +1,7 @@
 using CommandAPI.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Serialization;
 
 internal class Program
 {
@@ -20,6 +21,8 @@ internal class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
         builder.Services.AddDbContext<CommandContext>(options => options.UseSqlServer(conStrBuilder.ConnectionString));
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+        builder.Services.AddControllers().AddNewtonsoftJson(s => s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
 
         var app = builder.Build();
 
