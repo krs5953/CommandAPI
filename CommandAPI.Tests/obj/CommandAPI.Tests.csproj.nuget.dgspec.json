@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Training\\CommandAPI\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
+    "C:\\Source\\CommandAPi\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Training\\CommandAPI\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
+    "C:\\Source\\CommandAPi\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Training\\CommandAPI\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Source\\CommandAPi\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "projectName": "CommandAPI.Tests",
-        "projectPath": "C:\\Source\\Training\\CommandAPI\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectPath": "C:\\Source\\CommandAPi\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\kyle.sanders\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Training\\CommandAPI\\CommandAPI.Tests\\obj\\",
+        "outputPath": "C:\\Source\\CommandAPi\\CommandAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kyle.sanders\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,14 +21,15 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj": {
-                "projectPath": "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj"
+              "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj"
               }
             }
           }
@@ -88,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\kyle.sanders\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Training\\CommandAPI\\CommandAPI\\obj\\",
+        "outputPath": "C:\\Source\\CommandAPi\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kyle.sanders\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,6 +110,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -173,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

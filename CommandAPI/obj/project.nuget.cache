@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84RMU4/gHrcYDyJnBYQ9/+U4YTPEWfgpcq65Qd3Y3L+X0C928o3y/WETGMHn8mm5YB7FCqX7oYClqOgXABJofQ==",
+  "dgSpecHash": "FjPdlBOnJCuy0nfYRw+TatMai4VKCQc1ClUbuGXAuMy1+Ep3Sv4HBX1klqM8vt+ZWAxZXqYE2p8OiQUqEkklRw==",
   "success": true,
-  "projectFilePath": "C:\\Source\\Training\\CommandAPI\\CommandAPI\\CommandAPI.csproj",
+  "projectFilePath": "C:\\Source\\CommandAPi\\CommandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kyle.sanders\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\kyle.sanders\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
